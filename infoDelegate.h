@@ -1,0 +1,22 @@
+/*
+ * infoDelegate类的作用：
+ *      委托
+ *      设置adminDialog窗口中显示的数据是否可以被编辑
+*/
+#ifndef INFODELEGATE_H
+#define INFODELEGATE_H
+#include <QStyledItemDelegate>
+#include <QModelIndex>
+#include <QPainter>
+#include <QComboBox>
+
+class infoDelegate : public QStyledItemDelegate
+{
+public:
+    infoDelegate(QObject *parent = 0);
+    QWidget* createEditor(QWidget *parent, const QStyleOptionViewItem &option, const QModelIndex &index) const;
+    void setEditorData(QWidget* , const QModelIndex&)const;
+    void setModelData(QWidget* , QAbstractItemModel* , const QModelIndex&)const;
+};
+
+#endif // INFODELEGATE_H

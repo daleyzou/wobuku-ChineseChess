@@ -3,7 +3,7 @@
 
 ----------
 
-## GitHub地址： ##
+## GitHub地址： ##https://github.com/daleyzou/wobuku
 
 
 	这是自己大一学完c++后，在课程实践中写过的一个程序，实现象棋人机对战的算法还是有点难的，
@@ -16,7 +16,7 @@
 
 视频地址：[链接：https://pan.baidu.com/s/1pIp6UMJ6LXsuJ3GT80NGfw](https://pan.baidu.com/s/1pIp6UMJ6LXsuJ3GT80NGfw) 密码：9k8y
 
-**注意：**如果有读者跟着视频写这个象棋的人机对战程序，请一定要去理解其中的原理，
+**注意：** 如果有读者跟着视频写这个象棋的人机对战程序，请一定要去理解其中的原理，
 最好再有一本相关的书籍方便随时查阅就更 perfect 了
 
 **程序功能划分：**
